@@ -1,0 +1,242 @@
+[
+  {
+    "question": "What minimum funding coverage ratio must a pension fund maintain before it can distribute surplus?",
+    "ground_truth": "A pension fund must maintain a coverage ratio of at least 110% before any surplus distribution to members or employers is permitted.",
+    "contexts": [
+      "Article 12(3): A pension fund shall not distribute any surplus to members or sponsoring employers unless the policy funding ratio exceeds 110% at the time of distribution. Distribution decisions must be documented and approved by the board of trustees."
+    ],
+    "source": "regulation"
+  },
+  {
+    "question": "How many years does a pension fund have to submit a recovery plan when the coverage ratio falls below the minimum required level?",
+    "ground_truth": "A pension fund must submit a recovery plan within three months when the coverage ratio falls below the minimum required level, with the plan spanning a maximum recovery period of ten years.",
+    "contexts": [
+      "Article 14(1): When the policy funding ratio falls below the minimum required coverage ratio of 104.3%, the pension fund must notify the supervisory authority within one month and submit a recovery plan within three months. Article 14(2): The recovery plan must demonstrate restoration of the funding ratio to the required level within a period not exceeding ten years, using realistic actuarial assumptions."
+    ],
+    "source": "regulation"
+  },
+  {
+    "question": "What does ORSA stand for and what must it include?",
+    "ground_truth": "ORSA stands for Own Risk and Solvency Assessment. It must include a forward-looking assessment of the fund's risk profile, capital requirements under stress scenarios, the effectiveness of risk mitigants, and an assessment of technical provisions adequacy.",
+    "contexts": [
+      "Article 23(1): Every pension fund with assets exceeding EUR 500 million shall conduct an Own Risk and Solvency Assessment (ORSA) at least every three years, or immediately following any significant change in the risk profile. Article 23(2): The ORSA must include: (a) a forward-looking assessment of the fund's overall solvency needs; (b) compliance with regulatory capital requirements; (c) the significance with which the risk profile deviates from the assumptions underlying the solvency capital requirement; (d) an assessment of the adequacy of technical provisions."
+    ],
+    "source": "regulation"
+  },
+  {
+    "question": "What is the maximum recovery period allowed in a pension fund recovery plan?",
+    "ground_truth": "The maximum recovery period allowed in a pension fund recovery plan is ten years.",
+    "contexts": [
+      "Article 14(2): The recovery plan must demonstrate restoration of the funding ratio to the required level within a period not exceeding ten years, using realistic actuarial assumptions."
+    ],
+    "source": "regulation"
+  },
+  {
+    "question": "What ESG integration requirements apply to pension fund investment policies?",
+    "ground_truth": "Pension funds must integrate ESG factors into investment decision-making, publish an annual ESG report disclosing their approach, exclusion lists, engagement activities, and progress against climate targets. They must also consider a 1.5-degree scenario in their ORSA.",
+    "contexts": [
+      "Article 31(1): Pension funds shall integrate environmental, social and governance (ESG) factors into their investment decision-making process and risk management framework. Article 31(2): Each fund shall publish annually an ESG report disclosing: (a) the ESG integration approach; (b) an exclusion list of investee companies on ethical or ESG grounds; (c) engagement and voting activities; (d) carbon footprint of the investment portfolio; (e) progress against Paris Agreement alignment targets. Article 31(3): The ORSA must include a scenario analysis based on a 1.5 degrees Celsius temperature rise consistent with the Paris Agreement."
+    ],
+    "source": "regulation"
+  },
+  {
+    "question": "What is the prudent person principle as defined in the pension regulation?",
+    "ground_truth": "The prudent person principle requires pension funds to invest assets in the best long-term interests of members and beneficiaries, ensuring security, quality, liquidity, and profitability of the portfolio as a whole. Assets must be appropriately diversified and conflicts of interest must be avoided.",
+    "contexts": [
+      "Article 19(1): Pension funds shall invest in accordance with the prudent person principle. This requires that: (a) assets are invested in the best long-term interests of members and beneficiaries; (b) the portfolio achieves an appropriate balance of security, quality, liquidity, and profitability; (c) assets are appropriately diversified to avoid excessive reliance on any particular asset, issuer, or group; (d) investments in the sponsoring employer do not exceed 5% of the portfolio; (e) conflicts of interest are identified and avoided or appropriately managed."
+    ],
+    "source": "regulation"
+  },
+  {
+    "question": "What investment limits apply to investments in the sponsoring employer?",
+    "ground_truth": "Investments in the sponsoring employer must not exceed 5% of the portfolio.",
+    "contexts": [
+      "Article 19(1): Pension funds shall invest in accordance with the prudent person principle. This requires that: (d) investments in the sponsoring employer do not exceed 5% of the portfolio."
+    ],
+    "source": "regulation"
+  },
+  {
+    "question": "What information must be included in the annual Pension Benefit Statement?",
+    "ground_truth": "The annual Pension Benefit Statement must include the accrued pension entitlement, projected pension at retirement age under three scenarios (optimistic, expected, pessimistic), current coverage ratio, any indexation granted or withheld in the past year, and the assumed retirement date.",
+    "contexts": [
+      "Article 38(1): Each pension fund must issue an annual Pension Benefit Statement to every active member and deferred member within three months of the financial year end. Article 38(2): The statement must include: (a) the accrued pension entitlement as at the statement date; (b) projected pension at the assumed retirement date under at least three scenarios: optimistic (75th percentile), expected (50th percentile), and pessimistic (25th percentile); (c) the current policy coverage ratio; (d) any indexation granted or withheld during the preceding year; (e) the contribution rate paid by the member and the employer."
+    ],
+    "source": "regulation"
+  },
+  {
+    "question": "Within what timeframe must a pension fund notify the supervisory authority when the coverage ratio falls below the minimum level?",
+    "ground_truth": "A pension fund must notify the supervisory authority within one month when the policy funding ratio falls below the minimum required coverage ratio of 104.3%.",
+    "contexts": [
+      "Article 14(1): When the policy funding ratio falls below the minimum required coverage ratio of 104.3%, the pension fund must notify the supervisory authority within one month and submit a recovery plan within three months."
+    ],
+    "source": "regulation"
+  },
+  {
+    "question": "How frequently must the ORSA be conducted and what triggers an immediate reassessment?",
+    "ground_truth": "The ORSA must be conducted at least every three years. An immediate reassessment is required following any significant change in the risk profile of the fund.",
+    "contexts": [
+      "Article 23(1): Every pension fund with assets exceeding EUR 500 million shall conduct an Own Risk and Solvency Assessment (ORSA) at least every three years, or immediately following any significant change in the risk profile."
+    ],
+    "source": "regulation"
+  },
+  {
+    "question": "What are the three investment scenarios required in the Pension Benefit Statement projections?",
+    "ground_truth": "The three required scenarios are: optimistic (75th percentile), expected (50th percentile), and pessimistic (25th percentile).",
+    "contexts": [
+      "Article 38(2): The statement must include: (b) projected pension at the assumed retirement date under at least three scenarios: optimistic (75th percentile), expected (50th percentile), and pessimistic (25th percentile)."
+    ],
+    "source": "regulation"
+  },
+  {
+    "question": "What minimum coverage ratio triggers the obligation to notify the supervisory authority?",
+    "ground_truth": "A coverage ratio falling below 104.3% triggers the obligation to notify the supervisory authority.",
+    "contexts": [
+      "Article 14(1): When the policy funding ratio falls below the minimum required coverage ratio of 104.3%, the pension fund must notify the supervisory authority within one month."
+    ],
+    "source": "regulation"
+  },
+  {
+    "question": "What does the pension regulation require regarding the carbon footprint of investment portfolios?",
+    "ground_truth": "Pension funds must disclose the carbon footprint of their investment portfolio as part of their annual ESG report, and must demonstrate progress against Paris Agreement alignment targets.",
+    "contexts": [
+      "Article 31(2): Each fund shall publish annually an ESG report disclosing: (d) carbon footprint of the investment portfolio; (e) progress against Paris Agreement alignment targets."
+    ],
+    "source": "regulation"
+  },
+  {
+    "question": "What asset size threshold requires a pension fund to conduct an ORSA?",
+    "ground_truth": "Pension funds with assets exceeding EUR 500 million must conduct an ORSA.",
+    "contexts": [
+      "Article 23(1): Every pension fund with assets exceeding EUR 500 million shall conduct an Own Risk and Solvency Assessment (ORSA) at least every three years."
+    ],
+    "source": "regulation"
+  },
+  {
+    "question": "What indexation information must appear in the annual Pension Benefit Statement?",
+    "ground_truth": "The annual Pension Benefit Statement must include information on any indexation granted or withheld during the preceding year.",
+    "contexts": [
+      "Article 38(2): The statement must include: (d) any indexation granted or withheld during the preceding year."
+    ],
+    "source": "regulation"
+  },
+  {
+    "question": "Can a pension fund concentrate more than 5% of assets in a single issuer?",
+    "ground_truth": "No. The prudent person principle requires appropriate diversification to avoid excessive reliance on any particular asset, issuer, or group, and investments in the sponsoring employer must not exceed 5% of the portfolio.",
+    "contexts": [
+      "Article 19(1): Pension funds shall invest in accordance with the prudent person principle. This requires that: (c) assets are appropriately diversified to avoid excessive reliance on any particular asset, issuer, or group; (d) investments in the sponsoring employer do not exceed 5% of the portfolio."
+    ],
+    "source": "regulation"
+  },
+  {
+    "question": "What engagement activities must pension funds disclose in their ESG report?",
+    "ground_truth": "Pension funds must disclose their engagement and voting activities in their annual ESG report, alongside their ESG integration approach, exclusion list, carbon footprint, and Paris Agreement progress.",
+    "contexts": [
+      "Article 31(2): Each fund shall publish annually an ESG report disclosing: (a) the ESG integration approach; (b) an exclusion list of investee companies on ethical or ESG grounds; (c) engagement and voting activities."
+    ],
+    "source": "regulation"
+  },
+  {
+    "question": "What contribution rate information must appear in the Pension Benefit Statement?",
+    "ground_truth": "The Pension Benefit Statement must include the contribution rate paid by the member and the contribution rate paid by the employer.",
+    "contexts": [
+      "Article 38(2): The statement must include: (e) the contribution rate paid by the member and the employer."
+    ],
+    "source": "regulation"
+  },
+  {
+    "question": "What temperature scenario must be included in the ORSA analysis?",
+    "ground_truth": "The ORSA must include a scenario analysis based on a 1.5 degrees Celsius temperature rise consistent with the Paris Agreement.",
+    "contexts": [
+      "Article 31(3): The ORSA must include a scenario analysis based on a 1.5 degrees Celsius temperature rise consistent with the Paris Agreement."
+    ],
+    "source": "regulation"
+  },
+  {
+    "question": "When must the annual Pension Benefit Statement be issued to members?",
+    "ground_truth": "The annual Pension Benefit Statement must be issued to every active member and deferred member within three months of the financial year end.",
+    "contexts": [
+      "Article 38(1): Each pension fund must issue an annual Pension Benefit Statement to every active member and deferred member within three months of the financial year end."
+    ],
+    "source": "regulation"
+  },
+  {
+    "question": "What is the target strategic asset allocation for equities in the Investment Policy Statement?",
+    "ground_truth": "The target strategic asset allocation for equities is 40% of the total portfolio, with a permitted range of 35%–45%.",
+    "contexts": [
+      "Section 3 – Strategic Asset Allocation: The Board has approved the following long-term target allocations: Equities 40% (range 35%–45%), Fixed Income 35% (range 30%–40%), Real Assets 15% (range 10%–20%), Alternatives 10% (range 7%–13%). The allocation is reviewed annually and rebalanced whenever any asset class drifts more than 5 percentage points from its target."
+    ],
+    "source": "ips"
+  },
+  {
+    "question": "How often is the strategic asset allocation reviewed and what triggers a rebalancing?",
+    "ground_truth": "The strategic asset allocation is reviewed annually. Rebalancing is triggered whenever any asset class drifts more than 5 percentage points from its target allocation.",
+    "contexts": [
+      "Section 3 – Strategic Asset Allocation: The allocation is reviewed annually and rebalanced whenever any asset class drifts more than 5 percentage points from its target."
+    ],
+    "source": "ips"
+  },
+  {
+    "question": "What is the maximum Value at Risk limit specified in the Investment Policy Statement?",
+    "ground_truth": "The maximum Value at Risk (VaR) limit is 12% of total assets at the 95% confidence level over a one-year horizon.",
+    "contexts": [
+      "Section 5 – Risk Management Framework: The fund sets the following risk limits: (a) Value at Risk (VaR): maximum 12% of total assets at 95% confidence, one-year horizon; (b) Tracking error against the liability benchmark: maximum 8% annualised; (c) Leverage: no leverage permitted in the fixed income portfolio; (d) Liquidity: at least 10% of the portfolio must be realisable within five business days."
+    ],
+    "source": "ips"
+  },
+  {
+    "question": "What are the criteria used to select external investment managers?",
+    "ground_truth": "External investment managers are selected based on: a minimum three-year track record, AUM above EUR 1 billion, evidence of a robust investment process, alignment of the fee structure with performance outcomes, and demonstrated ESG integration capability.",
+    "contexts": [
+      "Section 6 – Manager Selection and Oversight: External managers are evaluated against the following minimum criteria: (a) a minimum track record of three years in the relevant strategy; (b) assets under management in the strategy exceeding EUR 1 billion; (c) evidence of a robust and repeatable investment process; (d) fee structures aligned with long-term performance outcomes; (e) demonstrated capability to integrate ESG factors into portfolio construction."
+    ],
+    "source": "ips"
+  },
+  {
+    "question": "What liquidity requirement is specified in the IPS risk management framework?",
+    "ground_truth": "At least 10% of the portfolio must be realisable within five business days.",
+    "contexts": [
+      "Section 5 – Risk Management Framework: (d) Liquidity: at least 10% of the portfolio must be realisable within five business days."
+    ],
+    "source": "ips"
+  },
+  {
+    "question": "What is the target allocation to fixed income and what is its permitted range?",
+    "ground_truth": "The target allocation to fixed income is 35% with a permitted range of 30%–40%.",
+    "contexts": [
+      "Section 3 – Strategic Asset Allocation: Fixed Income 35% (range 30%–40%)."
+    ],
+    "source": "ips"
+  },
+  {
+    "question": "What leverage restrictions apply to the fixed income portfolio?",
+    "ground_truth": "No leverage is permitted in the fixed income portfolio.",
+    "contexts": [
+      "Section 5 – Risk Management Framework: (c) Leverage: no leverage permitted in the fixed income portfolio."
+    ],
+    "source": "ips"
+  },
+  {
+    "question": "What minimum AUM must an external manager have in the relevant strategy?",
+    "ground_truth": "External managers must have assets under management in the relevant strategy exceeding EUR 1 billion.",
+    "contexts": [
+      "Section 6 – Manager Selection and Oversight: (b) assets under management in the strategy exceeding EUR 1 billion."
+    ],
+    "source": "ips"
+  },
+  {
+    "question": "What is the target allocation to real assets and what range is permitted?",
+    "ground_truth": "The target allocation to real assets is 15% with a permitted range of 10%–20%.",
+    "contexts": [
+      "Section 3 – Strategic Asset Allocation: Real Assets 15% (range 10%–20%)."
+    ],
+    "source": "ips"
+  },
+  {
+    "question": "What tracking error limit applies against the liability benchmark?",
+    "ground_truth": "The maximum tracking error against the liability benchmark is 8% annualised.",
+    "contexts": [
+      "Section 5 – Risk Management Framework: (b) Tracking error against the liability benchmark: maximum 8% annualised."
+    ],
+    "source": "ips"
+  }
+]

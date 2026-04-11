@@ -1,0 +1,10 @@
+pension_pipeline:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: '../../data/pension_warehouse.duckdb'
+      threads: 4
+      extensions:
+        - httpfs
+        - parquet

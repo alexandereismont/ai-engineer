@@ -1,0 +1,8 @@
+asset_class_code,asset_class_name,is_alternative,liquidity_tier,typical_allocation_min_pct,typical_allocation_max_pct,solvency_capital_factor
+EQ,Equity,false,1,20,60,0.39
+FI,Fixed Income,false,1,20,60,0.12
+RE,Real Estate,true,3,0,20,0.25
+PE,Private Equity,true,4,0,15,0.49
+HF,Hedge Funds,true,3,0,10,0.32
+INFRA,Infrastructure,true,4,0,15,0.30
+CASH,Cash & Equivalents,false,1,0,10,0.00

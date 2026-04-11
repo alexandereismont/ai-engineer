@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+.env
+.venv
+venv/
+env/
+*.egg-info/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb outputs stripped by nbstripout
+
+# dbt
+phase-04-pipelines/dbt/target/
+phase-04-pipelines/dbt/dbt_packages/
+phase-04-pipelines/dbt/logs/
+*.duckdb
+
+# Vector stores (large, regenerated)
+*.npy
+phase-*/chroma_db/
+
+# HuggingFace model cache
+*.bin
+*.safetensors
+models/
+
+# Secrets
+.env
+*.pem
+*.key
+
+# OS
+.DS_Store
+Thumbs.db
+
+# CI artifacts
+pii_report.json
+ragas_results/
