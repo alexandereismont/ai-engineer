@@ -1,0 +1,151 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+    branches: [main]
+
+env:
+  PYTHONPATH: ${{ github.workspace }}
+  # Smoke-test flag: set to true so notebooks skip heavy model calls
+  SMOKE_TEST: "true"
+
+jobs:
+  # --------------------------------------------------------------------------
+  # Job 1: Lint Python code and verify notebooks have no committed outputs
+  # --------------------------------------------------------------------------
+  lint:
+    name: Lint & notebook hygiene
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install lint tools
+        run: pip install ruff nbstripout
+
+      - name: Ruff — check style, imports, and errors
+        run: ruff check . --select E,W,F,I --output-format=github
+
+      - name: nbstripout — verify notebooks have no committed outputs
+        # nbstripout --verify exits with code 1 if any notebook still has outputs
+        run: |
+          find phase-*/notebooks -name "*.ipynb" -print0 \
+            | xargs -0 nbstripout --verify
+        continue-on-error: false
+
+  # --------------------------------------------------------------------------
+  # Job 2: PII scan on raw data files
+  # --------------------------------------------------------------------------
+  pii-scan:
+    name: PII scan (Presidio)
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install Presidio and dependencies
+        run: |
+          pip install \
+            presidio-analyzer==2.2.355 \
+            presidio-anonymizer==2.2.355 \
+            spacy==3.7.4
+          python -m spacy download en_core_web_lg
+
+      - name: Run PII scanner
+        id: pii_scan
+        run: python phase-06-cicd/pii_scanner.py
+        # Exit code 1 means unexpected PII was found — this will fail the job.
+        # The report is still uploaded as an artifact even on failure.
+
+      - name: Upload PII report
+        if: always()   # upload even when pii_scanner exits with code 1
+        uses: actions/upload-artifact@v4
+        with:
+          name: pii-report
+          path: pii_report.json
+          retention-days: 30
+
+  # --------------------------------------------------------------------------
+  # Job 3: Notebook smoke tests via Papermill
+  # --------------------------------------------------------------------------
+  notebook-smoke-test:
+    name: Notebook smoke tests
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install lightweight dependencies
+        # We intentionally skip heavy packages (torch, transformers) that
+        # are not available in the CI runner. Ollama and Neo4j won't be
+        # present either, so notebooks must guard against that with SMOKE_TEST.
+        run: |
+          pip install \
+            papermill==2.6.0 \
+            jupyter-client==8.6.2 \
+            ipykernel==6.29.5 \
+            nbformat==5.10.4
+
+      - name: Smoke-test phase-01 intro embeddings notebook
+        # continue-on-error: true because Ollama is not available in CI.
+        # We still want to confirm the notebook parses and starts executing.
+        continue-on-error: true
+        run: |
+          papermill \
+            phase-01-embeddings/notebooks/week1_intro_embeddings.ipynb \
+            /dev/null \
+            -p SMOKE_TEST true \
+            --execution-timeout 120 \
+            --kernel python3
+
+      - name: Smoke-test phase-05 LangGraph basics notebook
+        continue-on-error: true
+        run: |
+          papermill \
+            phase-05-agents/notebooks/week1_langgraph_basics.ipynb \
+            /dev/null \
+            -p SMOKE_TEST true \
+            --execution-timeout 120 \
+            --kernel python3
+
+      - name: Smoke-test phase-05 Neo4j graph notebook
+        continue-on-error: true
+        run: |
+          papermill \
+            phase-05-agents/notebooks/week2_neo4j_graph.ipynb \
+            /dev/null \
+            -p SMOKE_TEST true \
+            --execution-timeout 120 \
+            --kernel python3
+
+      - name: Smoke-test phase-06 PII detection notebook
+        continue-on-error: true
+        run: |
+          papermill \
+            phase-06-cicd/notebooks/week1_pii_detection.ipynb \
+            /dev/null \
+            -p SMOKE_TEST true \
+            --execution-timeout 120 \
+            --kernel python3

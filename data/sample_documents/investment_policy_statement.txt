@@ -1,0 +1,203 @@
+NORDDAL PENSION FUND
+INVESTMENT POLICY STATEMENT
+
+Approved by the Board of Trustees: 14 March 2024
+Next Scheduled Review: March 2025
+Document Version: 4.2
+
+— — —
+
+1. INTRODUCTION
+
+1.1 Purpose and Scope
+
+This Investment Policy Statement (IPS) sets out the investment objectives, strategic asset allocation, risk management framework, environmental and social governance policy, and governance arrangements for the Norddal Pension Fund (the "Fund"). This document is binding on the Fund's management, investment committee, and all external investment managers acting on behalf of the Fund.
+
+The Norddal Pension Fund is a multi-employer occupational pension fund established under Danish law, providing defined benefit and defined contribution retirement benefits to approximately 47,000 active members, deferred members, and pensioners across the Danish manufacturing and engineering sectors. The Fund is authorised and supervised by Finanstilsynet, the Danish Financial Supervisory Authority, and operates in compliance with the requirements of the IORP II Directive as implemented in Danish law.
+
+1.2 Fiduciary Responsibility
+
+The Board of Trustees bears ultimate fiduciary responsibility for the investment of the Fund's assets. All investment decisions shall be taken in the exclusive long-term interest of members and beneficiaries, consistent with the Fund's obligations under its governing deed and applicable Danish pension legislation.
+
+1.3 Relationship to Other Documents
+
+This IPS should be read alongside the Fund's: (a) Statement of Funding Principles; (b) Risk Appetite Statement; (c) ESG Policy; (d) Actuarial Valuation Report; (e) ORSA Report.
+
+In the event of conflict between this IPS and any of the above documents, this IPS shall prevail with respect to investment matters. The Board of Trustees shall resolve any material inconsistencies within ninety days of their identification.
+
+— — —
+
+2. INVESTMENT OBJECTIVES
+
+2.1 Primary Objective
+
+The primary investment objective of the Norddal Pension Fund is to generate sufficient long-term returns to meet all pension obligations to members and beneficiaries as they fall due, while maintaining an appropriate level of funding security.
+
+2.2 Return Target
+
+The Fund targets a net total portfolio return of the Danish Consumer Price Index (CPI) plus 2.5% per annum, measured over rolling seven-year periods. This return target has been established by the actuary as the level required to sustain the current contribution rates and benefit levels with a 90% probability of maintaining the policy funding ratio above 104.3% over a ten-year horizon.
+
+The return target shall be reviewed at each triennial actuarial valuation. The Board of Trustees acknowledges that the return target implies acceptance of a meaningful level of investment risk, and that short-term portfolio returns may deviate substantially from the target without triggering a change in strategy.
+
+2.3 Secondary Objective
+
+The secondary objective is to protect the purchasing power of deferred and active members' accrued benefits against inflation, through appropriate allocation to inflation-linked and real assets.
+
+2.4 Funding Objective
+
+The Fund targets a policy funding ratio of at least 115% on a consistent basis. Where the policy funding ratio exceeds 120%, the Board of Trustees may consider enhanced indexation of pensions in payment, subject to actuarial advice and the constraints of Article 12(3) of the applicable regulatory framework.
+
+— — —
+
+3. STRATEGIC ASSET ALLOCATION
+
+3.1 Target Allocation
+
+The Board of Trustees has approved the following strategic asset allocation:
+
+  Asset Class                  Target (%)   Permitted Range (%)
+  ─────────────────────────────────────────────────────────────
+  Listed Equities                  38            33 – 43
+  Government Bonds                 35            30 – 40
+  Real Estate                      12             8 – 16
+  Alternative Investments          10             6 – 14
+  Cash and Money Market             5             2 – 10
+  ─────────────────────────────────────────────────────────────
+  Total                           100
+
+3.2 Asset Class Descriptions
+
+Listed Equities (38%): The equity portfolio is managed on a global basis with reference to the MSCI All Country World Index. The portfolio shall maintain a meaningful home bias toward Nordic and European equities given the liability profile of the Fund. The equity allocation includes a low-carbon tilt, reflecting the Fund's Paris Agreement commitment.
+
+Government Bonds (35%): The fixed income portfolio serves a dual purpose: liability matching through duration management and income generation. The portfolio comprises primarily investment-grade sovereign bonds issued by Danish, European Union, and OECD Member State governments. Inflation-linked bonds shall comprise at least 30% of the government bond allocation.
+
+Real Estate (12%): The Fund invests in real estate through a combination of direct property holdings (primarily Danish commercial and residential assets) and listed and unlisted real estate funds diversified across European markets. Direct holdings shall not exceed 60% of the real estate allocation.
+
+Alternative Investments (10%): The alternatives allocation encompasses infrastructure equity and debt, private equity, and a small allocation to diversifying strategies including global macro and insurance-linked securities. Infrastructure shall represent at least 50% of the alternatives allocation, reflecting the long-duration, inflation-linked characteristics of infrastructure cash flows.
+
+Cash and Money Market (5%): The liquidity portfolio consists of Danish and European Central Bank-eligible money market instruments, short-dated government bonds, and deposits with institutions rated at least A- by at least two major rating agencies.
+
+3.3 Rebalancing Policy
+
+The portfolio shall be rebalanced toward strategic targets when any asset class deviates beyond its permitted range. Rebalancing shall occur within thirty calendar days of any breach. The Investment Committee may, in exceptional market conditions, recommend to the Board of Trustees that a breach be tolerated for a further thirty days where immediate rebalancing would be materially detrimental to the Fund.
+
+3.4 Currency Policy
+
+The functional currency of the Fund is Danish Krone (DKK). The Board of Trustees has approved a policy of hedging the currency exposure arising from non-DKK investments to the following degree: (a) developed market fixed income: 100% hedged to DKK; (b) global equities: 50% hedged; (c) real assets: 0% hedged. These hedging ratios shall be reviewed annually.
+
+— — —
+
+4. RISK MANAGEMENT
+
+4.1 Risk Appetite
+
+The Board of Trustees has determined that the Fund can tolerate a one-year value-at-risk (99th percentile) of up to 18% of total assets. The Fund shall not accept risks that could plausibly result in the policy funding ratio falling below 95% within a one-year horizon under a 99th percentile stress scenario.
+
+4.2 Investment Risk Limits
+
+The following investment risk limits apply to the total Fund portfolio:
+
+(a) Single issuer concentration: No single issuer (other than the Kingdom of Denmark or other OECD sovereign) shall represent more than 5% of the Fund's total assets at market value. This limit applies to all security types including equities, corporate bonds, and structured products.
+
+(b) Single counterparty exposure: Aggregate OTC derivative exposure to any single counterparty shall not exceed 3% of total assets, after application of collateral arrangements.
+
+(c) Illiquidity limit: Illiquid assets (defined as those not realisable within 90 days without material discount) shall not exceed 25% of total assets.
+
+(d) Leverage: Leverage through derivatives is permitted for liability hedging and currency management purposes only. The Fund shall not maintain leveraged positions for speculative return enhancement. Net notional derivative exposure shall not exceed 80% of total assets.
+
+(e) Minimum credit rating: At least 90% of the fixed income portfolio (by market value) shall be invested in securities rated at least BBB- by two major credit rating agencies at time of purchase.
+
+4.3 Liability Risk Management
+
+Given the defined benefit obligations of the Fund, the Board of Trustees places particular emphasis on managing interest rate and inflation risk. The Fund's liability duration is approximately 18 years. The Board has approved an interest rate hedging ratio of 60–80% of the duration gap between assets and liabilities.
+
+The investment manager responsible for liability-driven investment shall report monthly to the Investment Committee on the interest rate and inflation hedge ratio and shall be authorised to rebalance within the approved ranges without prior approval.
+
+4.4 Monitoring and Reporting
+
+The Investment Committee shall meet quarterly to review investment performance, risk exposures, and compliance with this IPS. The Investment Committee shall report to the Board of Trustees at each board meeting, summarising performance, key risk metrics, and any limit breaches.
+
+External investment managers shall provide monthly performance and attribution reports, and shall notify the Fund without delay of any breach of their individual mandates.
+
+— — —
+
+5. ESG POLICY
+
+5.1 Commitment to Responsible Investment
+
+The Norddal Pension Fund is committed to responsible investment and believes that the systematic integration of environmental, social, and governance (ESG) factors is consistent with its fiduciary duty to act in the long-term interests of members. The Fund is a signatory to the United Nations Principles for Responsible Investment (UN PRI).
+
+5.2 ESG Integration
+
+ESG factors shall be integrated into investment analysis and decision-making across all asset classes. External investment managers are required to demonstrate robust ESG integration processes and shall provide evidence of their approach at manager selection and through ongoing monitoring.
+
+5.3 Exclusions
+
+The Fund maintains a mandatory exclusion list. The following activities are excluded from the portfolio on ESG grounds, regardless of financial attractiveness:
+
+(a) Direct extraction of coal, oil, and gas (fossil fuel extraction companies deriving more than 10% of revenue from fossil fuel exploration and production);
+(b) Manufacture of controversial weapons, including cluster munitions, anti-personnel mines, biological and chemical weapons, and nuclear weapons outside of NPT-compliant programmes;
+(c) Companies found in systematic violation of the principles of the UN Global Compact;
+(d) Producers of tobacco products;
+(e) Companies engaged in deforestation of primary forests classified by the High Carbon Stock Approach.
+
+The exclusion list shall be reviewed and published annually. The Fund's external ESG data provider shall screen the portfolio against the exclusion list monthly.
+
+5.4 Climate Policy
+
+The Fund is committed to aligning its portfolio with the goals of the Paris Agreement, specifically the 1.5-degree Celsius scenario. The Fund has set a target to reduce the absolute carbon footprint of the investment portfolio by 50% by 2030 relative to the 2019 baseline, and to achieve net-zero portfolio emissions by 2050.
+
+No new investments shall be made in companies expanding fossil fuel production capacity. Existing positions in such companies shall be divested by 31 December 2026 unless the company has adopted a credible transition plan verified by an independent third party.
+
+5.5 Engagement and Stewardship
+
+The Fund exercises its rights as a shareholder to promote sound governance and sustainable business practices among investee companies. Voting rights attached to all directly held equities and equity funds (where pass-through voting is available) shall be exercised consistently with the Fund's voting guidelines, which are published on the Fund's website.
+
+The Fund participates in collaborative engagement initiatives, including Climate Action 100+ and the Nordic Engagement Cooperation, and targets engagement on at least 20 significant holdings annually.
+
+— — —
+
+6. GOVERNANCE
+
+6.1 Investment Committee
+
+The Investment Committee is appointed by the Board of Trustees and is responsible for the day-to-day oversight of investment activities. The Investment Committee comprises three trustee members and two independent investment professionals appointed by the Board. A quorum of three members is required for decisions.
+
+The Investment Committee has delegated authority to take investment decisions consistent with the strategic asset allocation and within the risk limits established by this IPS. Decisions outside these parameters require Board of Trustees approval.
+
+6.2 Selection and Monitoring of External Managers
+
+The Fund uses external investment managers for the listed equity, government bond, and alternative investment mandates. External managers are selected through a structured due diligence process that includes assessment of investment capability, ESG integration, operational infrastructure, and fee structure.
+
+External manager performance shall be assessed over rolling three-year periods. A manager delivering performance materially below its agreed benchmark for three consecutive years shall be subject to a formal review, which may result in termination of the mandate.
+
+6.3 Custodian
+
+The Fund's assets are held in custody by a global custodian appointed separately from any investment manager. The custodian provides independent valuation of the portfolio and is responsible for settlement, corporate actions, and securities lending administration.
+
+— — —
+
+7. REVIEW PROCESS
+
+7.1 Annual Review
+
+This IPS shall be reviewed annually by the Investment Committee, with any proposed amendments submitted to the Board of Trustees for approval. The annual review shall consider: (a) changes in the Fund's liability profile; (b) changes in capital market conditions and expected returns; (c) developments in ESG standards and regulatory requirements; (d) the Fund's funding position and risk capacity.
+
+7.2 Triennial Strategic Review
+
+Every three years, coinciding with the actuarial valuation, the Board of Trustees shall commission a comprehensive strategic asset allocation review, incorporating updated actuarial projections, liability modelling, and asset-liability management analysis. This review may result in material changes to the strategic target allocation.
+
+7.3 Trigger-Based Review
+
+This IPS shall be reviewed without delay upon: (a) a material change in the Fund's funding position (policy funding ratio moving below 104.3% or above 130%); (b) a change in the Fund's actuarial assumptions; (c) a significant change in the scheme's membership demographics; (d) a material change in applicable legislation or regulatory requirements.
+
+— — —
+
+Approved by:
+
+Board of Trustees, Norddal Pension Fund
+Date: 14 March 2024
+
+Chair of the Board of Trustees: ___________________________
+
+Chair of the Investment Committee: ___________________________

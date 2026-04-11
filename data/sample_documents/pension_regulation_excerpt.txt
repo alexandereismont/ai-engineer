@@ -1,0 +1,392 @@
+DIRECTIVE OF THE EUROPEAN PARLIAMENT AND OF THE COUNCIL
+
+on the activities and supervision of institutions for occupational retirement provision
+
+(IORP III)
+
+— — —
+
+CHAPTER I — GENERAL PROVISIONS
+
+Article 1 — Subject Matter
+
+This Directive establishes requirements for the authorisation, operation, and supervision of institutions for occupational retirement provision (IORPs) operating within the European Union. It seeks to ensure the long-term financial security of beneficiaries, promote the efficient functioning of the internal market for occupational pensions, and embed sustainability considerations into pension fund governance.
+
+Article 2 — Scope
+
+1. This Directive applies to all IORPs established in a Member State that manage assets on behalf of members and beneficiaries under an occupational retirement scheme.
+
+2. Member States may exempt from the scope of this Directive IORPs managing schemes with fewer than 100 members in total, provided that equivalent national supervisory arrangements apply.
+
+3. IORPs that are subject to authorisation and prudential supervision as insurance undertakings under Directive 2009/138/EC (Solvency II) shall remain governed by that Directive and are excluded from the scope of this Directive.
+
+4. Where an IORP operates cross-border activities within the meaning of Article 11 of this Directive, the full scope of this Directive applies regardless of membership size.
+
+Article 3 — Definitions
+
+For the purposes of this Directive:
+
+(1) "institution for occupational retirement provision" or "IORP" means an institution, irrespective of its legal form, which is established separately from any sponsoring undertaking or trade for the purpose of providing retirement benefits in the context of an occupational activity;
+
+(2) "pension scheme" means a contract, an agreement, a trust deed or rules stipulating which retirement benefits are granted and under which conditions;
+
+(3) "sponsoring undertaking" means any undertaking or other body, regardless of whether it includes or consists of one or more legal or natural persons, which acts as an employer or in a self-employed capacity and which pays contributions into an IORP;
+
+(4) "member" means a person whose occupational activities entitle or will entitle him or her to retirement benefits in accordance with the provisions of a pension scheme;
+
+(5) "beneficiary" means a person who receives retirement benefits;
+
+(6) "policy funding ratio" means the ratio of the market value of assets to the present value of technical provisions, expressed as a percentage, calculated as an average over a period of twelve months on the basis of daily or monthly observations;
+
+(7) "required coverage ratio" means the minimum policy funding ratio required under applicable national law, which shall not fall below 104.3% for defined benefit schemes under this Directive;
+
+(8) "technical provisions" means the present value of all future liabilities arising from pension entitlements of members and beneficiaries, calculated using actuarial methods consistent with Article 17 of this Directive;
+
+(9) "recovery plan" means a plan submitted by an IORP to the supervisory authority detailing the measures to be taken to restore the policy funding ratio to the required level within the permitted recovery period;
+
+(10) "prudent person principle" means the investment standard described in Article 19 of this Directive;
+
+(11) "ORSA" means the Own Risk and Solvency Assessment described in Article 23 of this Directive;
+
+(12) "ESG factors" means environmental, social, and governance considerations that may affect the long-term risk and return profile of investments.
+
+Article 4 — Authorisation
+
+1. Each IORP shall obtain authorisation from the competent supervisory authority of the Member State in which it is registered or has its registered office before commencing operations.
+
+2. An application for authorisation shall include: (a) the statutes or deed of constitution of the IORP; (b) the identity and qualifications of the persons responsible for management; (c) the rules of the pension scheme or schemes to be managed; (d) information on the technical provisions methodology and assumptions; (e) the investment policy statement.
+
+3. The supervisory authority shall grant or refuse authorisation within four months of receiving a complete application. Failure to act within this period shall not constitute tacit approval.
+
+4. Authorisation shall be valid across all Member States for IORPs operating cross-border schemes, subject to the notification requirements of Article 11.
+
+Article 5 — Fit and Proper Requirements
+
+1. Persons who effectively run an IORP or who hold other key functions must at all times be fit and proper.
+
+2. "Fit" means having the professional qualifications, knowledge, and experience to perform their duties. "Proper" means being of good repute and integrity, and having demonstrated compliance with relevant legal obligations.
+
+3. IORPs shall notify the supervisory authority without delay where any person referred to in paragraph 1 no longer meets the fit and proper requirements.
+
+4. The supervisory authority may require removal of a person who fails to meet these requirements.
+
+Article 6 — Governance System
+
+1. IORPs shall have an effective system of governance which provides for sound and prudent management of their activities.
+
+2. The governance system shall include an adequate transparent organisational structure with a clear allocation and appropriate segregation of responsibilities, and an effective system for ensuring the transmission of information.
+
+3. The governance system shall be subject to regular internal review, at a minimum every three years.
+
+4. IORPs shall have written policies relating to risk management, internal audit, actuarial matters, and outsourcing. Such policies shall be reviewed and approved at least annually by the management or supervisory body.
+
+Article 7 — Key Functions
+
+1. IORPs shall establish the following key functions: (a) risk management; (b) internal audit; (c) actuarial function.
+
+2. The holder of the internal audit function shall be independent from the other key functions and shall report directly to the management or supervisory body.
+
+3. Member States may permit a single person or organisational unit to carry out more than one key function, except that the internal audit function must remain separate.
+
+Article 8 — Outsourcing
+
+1. IORPs may outsource functions or activities to third-party service providers, subject to prior notification to the supervisory authority where the function is critical or important.
+
+2. Outsourcing shall not relieve an IORP of its regulatory responsibilities. The IORP shall retain ultimate accountability for the outsourced function.
+
+3. Where investment management is outsourced, the IORP shall ensure the investment manager acts consistently with the IORP's investment policy statement and the prudent person principle.
+
+4. Outsourcing to service providers established outside the European Union is subject to additional scrutiny by the supervisory authority, which may prohibit such arrangements where adequate supervisory equivalence cannot be established.
+
+Article 9 — Actuarial Function
+
+1. The actuarial function shall be responsible for: (a) calculating technical provisions; (b) ensuring actuarial assumptions are appropriate and consistent from year to year; (c) assessing the sufficiency of contributions; (d) providing an opinion on the funding position in the annual report.
+
+2. The person or body carrying out the actuarial function shall hold appropriate professional qualifications recognised by the relevant actuarial professional body in the Member State.
+
+3. The actuarial function shall produce an annual actuarial report, which shall be made available to the supervisory authority upon request.
+
+— — —
+
+CHAPTER II — TECHNICAL PROVISIONS AND FUNDING
+
+Article 10 — Calculation of Technical Provisions
+
+1. IORPs shall at all times hold sufficient and appropriate assets to cover their technical provisions.
+
+2. Technical provisions shall be calculated by a sufficiently prudent actuarial valuation, taking account of all benefits and obligations arising under the scheme rules.
+
+3. The discount rate used to calculate technical provisions shall be set with prudence, taking into account: (a) yields on high-quality corporate or government bonds; (b) the expected return on assets, only to the extent permitted under national law; (c) the duration of the liabilities.
+
+4. Technical provisions shall be recalculated at least annually. A more frequent recalculation shall be performed where there has been a significant change in the actuarial assumptions or the scheme membership profile.
+
+Article 11 — Cross-Border Operations
+
+1. An IORP registered in one Member State may accept contributions from a sponsoring undertaking established in another Member State (the "host Member State"), subject to prior notification of the supervisory authority of the home Member State.
+
+2. The home Member State supervisory authority shall inform the host Member State supervisory authority within three months of receiving a complete notification.
+
+3. The IORP must comply with the social and labour law relevant to the field of occupational pensions of the host Member State as it relates to the pension scheme operated on behalf of the cross-border sponsoring undertaking.
+
+4. Where the IORP fails to comply with host Member State requirements, the host Member State supervisory authority may prohibit further accrual of benefits under that scheme.
+
+Article 12 — Funding Requirements and Surplus Distribution
+
+1. Each IORP shall maintain assets equal to or exceeding the value of its technical provisions at all times. Where assets fall below technical provisions, the IORP shall immediately notify its supervisory authority.
+
+2. In addition to technical provisions, IORPs operating defined benefit schemes shall hold a funding buffer in accordance with requirements set by the supervisory authority of the home Member State, which shall not be less than 4.3 percentage points above technical provisions.
+
+3. A pension fund shall not distribute any surplus to members or sponsoring employers unless the policy funding ratio exceeds 110% at the time of distribution. Distribution decisions must be documented and approved by the board of trustees.
+
+4. IORPs shall document their funding strategy in a funding policy statement, which shall be reviewed at least every three years and following any material change in the risk profile of the fund.
+
+Article 13 — Contributions and Contribution Adequacy
+
+1. IORPs shall assess at least annually whether contributions are sufficient to meet the obligation to fund technical provisions and the required funding buffer.
+
+2. Where the actuarial function concludes that contributions are insufficient, the IORP shall without delay inform the sponsoring undertaking and the supervisory authority, setting out the corrective measures proposed.
+
+3. Member States shall establish mechanisms to protect members' accrued benefits in the event of sponsoring undertaking insolvency, which may include insurance, guarantee funds, or equivalent arrangements.
+
+Article 14 — Recovery Plans
+
+1. When the policy funding ratio falls below the minimum required coverage ratio of 104.3%, the pension fund must notify the supervisory authority within one month and submit a recovery plan within three months.
+
+2. The recovery plan must demonstrate restoration of the funding ratio to the required level within a period not exceeding ten years, using realistic actuarial assumptions.
+
+3. The recovery plan shall include: (a) the identification and analysis of the causes of underfunding; (b) the financial measures to be taken, including any increase in contributions by sponsoring undertakings or members; (c) the projected trajectory of the policy funding ratio under central and adverse scenarios; (d) contingency measures in the event that the recovery trajectory is not met.
+
+4. The supervisory authority shall assess the recovery plan within two months of receipt and shall either approve it or require modifications. The supervisory authority may set a shorter maximum recovery period than ten years where it determines that the assumptions are insufficiently prudent.
+
+5. The IORP shall report to the supervisory authority semi-annually on progress against the recovery plan. Where the IORP deviates materially from the plan, it shall submit a revised plan within three months of identifying the deviation.
+
+6. During a recovery period, the IORP shall not increase benefit levels or reduce contribution rates without the prior approval of the supervisory authority.
+
+Article 15 — Funding Equalisation Mechanism
+
+1. Member States may require IORPs to maintain a funding equalisation reserve in addition to the required coverage ratio, for the purpose of absorbing temporary funding shocks without triggering a recovery plan.
+
+2. Where a Member State establishes such a reserve requirement, the minimum size shall be determined actuarially having regard to the volatility of the IORP's asset and liability profile.
+
+3. Drawdown of the equalisation reserve below 50% of the required level shall trigger mandatory notification to the supervisory authority.
+
+— — —
+
+CHAPTER III — INVESTMENT RULES
+
+Article 16 — General Investment Principles
+
+1. IORPs shall invest in accordance with the rules established in this Chapter, taking into account the nature and duration of their liabilities.
+
+2. IORPs shall develop and maintain an investment policy statement that sets out: (a) the investment objectives and return targets; (b) the strategic asset allocation and permitted ranges; (c) the risk limits and how they are monitored; (d) the approach to liability-driven investment; (e) the ESG integration policy.
+
+3. The investment policy statement shall be reviewed at least annually by the management or supervisory body.
+
+Article 17 — Liability-Driven Investment
+
+1. IORPs managing defined benefit schemes shall quantify the interest rate sensitivity and inflation sensitivity of their liabilities and shall manage this exposure within limits approved by the management or supervisory body.
+
+2. IORPs shall document their hedging strategy and shall review it at least annually or whenever market conditions change materially.
+
+3. The supervisory authority may impose minimum requirements on the degree of interest rate hedging for IORPs whose funding ratios are below the required coverage ratio.
+
+Article 18 — Asset Eligibility
+
+1. IORPs may invest in any asset class that is consistent with the prudent person principle, including but not limited to: (a) listed equities; (b) government and corporate bonds; (c) real estate; (d) infrastructure; (e) private equity and private debt; (f) commodities; (g) collective investment undertakings; (h) derivatives used for risk reduction or efficient portfolio management.
+
+2. Investment in derivatives for speculative purposes is prohibited. All derivative positions shall be documented as to their intended hedging purpose.
+
+3. IORPs shall maintain sufficient liquidity at all times to meet expected benefit payments and collateral obligations.
+
+Article 19 — Prudent Person Principle
+
+1. Pension funds shall invest in accordance with the prudent person principle. This requires that: (a) assets are invested in the best long-term interests of members and beneficiaries; (b) the portfolio achieves an appropriate balance of security, quality, liquidity, and profitability; (c) assets are appropriately diversified to avoid excessive reliance on any particular asset, issuer, or group; (d) investments in the sponsoring employer do not exceed 5% of the portfolio; (e) conflicts of interest are identified and avoided or appropriately managed.
+
+2. Where an IORP invests in assets that are not admitted to a regulated market, it shall take steps to ensure the valuation of such assets is verifiable and reliable, and shall disclose in its annual report the proportion of the portfolio invested in non-listed assets.
+
+3. The management or supervisory body shall be able to demonstrate to the supervisory authority how each major investment decision is consistent with the prudent person principle.
+
+Article 20 — Concentration Limits
+
+1. IORPs shall not invest more than 10% of total assets in securities issued by a single issuer unless the issuer is a government or public body of a Member State.
+
+2. Aggregate exposure to any single counterparty through derivatives, securities lending, and repurchase agreements shall not exceed 5% of total assets.
+
+3. Investment in assets of the sponsoring employer or group entities shall not exceed 5% of total assets. Where multiple IORPs share a common sponsoring employer, this limit applies on an aggregate basis.
+
+4. The supervisory authority may grant temporary exemptions from concentration limits in exceptional circumstances for a period not exceeding twelve months.
+
+Article 21 — Use of Derivatives
+
+1. IORPs may use financial derivative instruments exclusively for the purpose of reducing investment risks or facilitating efficient portfolio management.
+
+2. All use of derivatives shall be documented in a derivatives policy, which shall be reviewed and approved annually by the management or supervisory body.
+
+3. Uncovered short positions are prohibited. The aggregate notional exposure through derivatives shall not exceed 100% of the fund's total assets.
+
+Article 22 — Borrowing
+
+1. IORPs shall not borrow or use leverage unless borrowing is: (a) of a temporary nature to ensure continuity of benefit payments; (b) used to finance investment in real assets for short bridging periods; (c) explicitly permitted by national law and subject to a prescribed limit.
+
+2. Aggregate borrowing shall not exceed 10% of total assets. Borrowing for purposes other than those listed in paragraph 1 is prohibited.
+
+— — —
+
+CHAPTER IV — RISK MANAGEMENT AND ORSA
+
+Article 23 — Own Risk and Solvency Assessment
+
+1. Every pension fund with assets exceeding EUR 500 million shall conduct an Own Risk and Solvency Assessment (ORSA) at least every three years, or immediately following any significant change in the risk profile.
+
+2. The ORSA must include: (a) a forward-looking assessment of the fund's overall solvency needs; (b) compliance with regulatory capital requirements; (c) the significance with which the risk profile deviates from the assumptions underlying the solvency capital requirement; (d) an assessment of the adequacy of technical provisions.
+
+3. The ORSA shall be approved by the management or supervisory body and submitted to the supervisory authority within three months of completion.
+
+4. The supervisory authority may require more frequent ORSA submissions where it has concerns about the risk profile of an IORP.
+
+Article 24 — Risk Management System
+
+1. IORPs shall implement a comprehensive and integrated risk management system that covers all material risks, including actuarial risk, market risk, credit risk, liquidity risk, operational risk, and sustainability risk.
+
+2. The risk management system shall include: (a) risk identification and assessment procedures; (b) risk limits consistent with the investment policy and funding strategy; (c) risk monitoring and reporting processes; (d) escalation procedures where limits are breached.
+
+3. The risk management function shall report at least quarterly to the management or supervisory body.
+
+Article 25 — Stress Testing
+
+1. IORPs shall conduct regular stress tests to assess the impact of adverse scenarios on the funding ratio and liquidity position.
+
+2. Stress scenarios shall include at minimum: (a) a 25% decline in equity markets; (b) a 100 basis point parallel shift in yield curves; (c) a 15% decline in real estate values; (d) a simultaneous occurrence of (a), (b), and (c).
+
+3. Stress test results shall be reviewed by the management or supervisory body and shall inform the investment and funding strategy.
+
+4. IORPs shall submit stress test results to the supervisory authority annually, or more frequently upon request.
+
+Article 26 — Liquidity Risk Management
+
+1. IORPs shall maintain a liquidity buffer sufficient to meet expected benefit payments and collateral calls over a one-year horizon under stress conditions.
+
+2. The liquidity risk management framework shall include: (a) monthly liquidity projections for the following twelve months; (b) a minimum portfolio of liquid assets consistent with meeting obligations without forced asset sales; (c) a liquidity contingency plan.
+
+3. Where liquidity falls below the required buffer, the IORP shall notify the supervisory authority within five business days.
+
+— — —
+
+CHAPTER V — TRANSPARENCY AND REPORTING
+
+Article 27 — Annual Report and Accounts
+
+1. IORPs shall prepare annual accounts and an annual report for each financial year in accordance with national accounting standards applicable to pension institutions.
+
+2. The annual report shall include: (a) the investment performance and attribution analysis; (b) the actuarial report and funding position; (c) a statement on the governance system; (d) the ESG report required under Article 31; (e) any material changes in the pension scheme rules.
+
+3. The annual accounts shall be audited by an independent external auditor. The audit opinion shall be included in the annual report.
+
+4. The annual report shall be made publicly available within six months of the end of the financial year.
+
+Article 28 — Member Communication
+
+1. IORPs shall provide each member with an annual benefit statement that includes: (a) the projected retirement income under a central scenario; (b) the current value of accrued benefits; (c) a statement of the funding ratio; (d) an ESG summary.
+
+2. Members shall be notified within one month of any material change to the pension scheme that affects their entitlements.
+
+3. IORPs shall maintain a website or digital portal where members can access up-to-date information on their scheme, the fund's investment policy, and the governance structure.
+
+Article 29 — Regulatory Reporting
+
+1. IORPs shall submit the following reports to the supervisory authority: (a) annual prudential report within three months of the financial year end; (b) quarterly funding ratio report within one month of each quarter end; (c) annual ORSA report under Article 23; (d) annual ESG report under Article 31.
+
+2. The supervisory authority may require additional ad hoc reporting at any time where it considers this necessary for the exercise of its supervisory functions.
+
+3. IORPs shall submit all regulatory reports via the supervisory authority's electronic reporting portal in the prescribed format.
+
+Article 30 — Statement of Investment Principles
+
+1. IORPs shall prepare and maintain a statement of investment principles that sets out: (a) the investment objectives; (b) the strategic asset allocation; (c) the risk management approach; (d) the ESG policy; (e) the engagement and voting policy.
+
+2. The statement of investment principles shall be reviewed and updated at least annually.
+
+3. The statement of investment principles shall be publicly available and shall be submitted to the supervisory authority annually.
+
+— — —
+
+CHAPTER VI — ENVIRONMENTAL, SOCIAL AND GOVERNANCE
+
+Article 31 — ESG Integration
+
+1. Pension funds shall integrate environmental, social and governance (ESG) factors into their investment decision-making process and risk management framework.
+
+2. Each fund shall publish annually an ESG report disclosing: (a) the ESG integration approach; (b) an exclusion list of investee companies on ethical or ESG grounds; (c) engagement and voting activities; (d) carbon footprint of the investment portfolio; (e) progress against Paris Agreement alignment targets.
+
+3. The ORSA must include a scenario analysis based on a 1.5 degrees Celsius temperature rise consistent with the Paris Agreement.
+
+4. The ESG report required under paragraph 2 shall be externally verified by an independent third party at least every three years.
+
+Article 32 — Climate Risk
+
+1. IORPs shall assess and manage climate-related financial risks, including both transition risks arising from the shift to a low-carbon economy and physical risks arising from changes in climate conditions.
+
+2. IORPs shall disclose climate-related information in accordance with the recommendations of the Task Force on Climate-related Financial Disclosures (TCFD) or any successor framework adopted by the European Commission.
+
+3. IORPs with assets exceeding EUR 1 billion shall set and publish quantified targets for reducing the carbon footprint of their portfolios, consistent with the goals of the Paris Agreement, and shall report progress annually.
+
+Article 33 — Social and Governance Factors
+
+1. IORPs shall integrate social factors, including labour rights, human rights in supply chains, and community impacts, into their investment due diligence and stewardship activities.
+
+2. IORPs shall exercise voting rights attached to their equity investments in a manner consistent with the long-term interests of members and with their published ESG policy.
+
+3. IORPs shall engage with investee companies on material governance concerns, including executive remuneration, board composition, and audit independence, and shall disclose engagement outcomes in the annual ESG report.
+
+— — —
+
+CHAPTER VII — SUPERVISORY POWERS
+
+Article 34 — Powers of the Supervisory Authority
+
+1. The supervisory authority shall have all powers necessary to supervise IORPs established in its jurisdiction, including powers to: (a) require any information or document from an IORP or its service providers; (b) conduct on-site inspections and remote examinations; (c) interview members of the management or supervisory body and key function holders; (d) require the appointment of an independent expert to review specific matters; (e) issue binding recommendations.
+
+2. The supervisory authority shall publish annually a report on its supervisory activities, including aggregate statistical data on the funding positions and investment allocations of IORPs under its supervision.
+
+Article 35 — Sanctions and Enforcement
+
+1. Member States shall lay down rules on administrative penalties and other measures applicable to infringements of this Directive and shall take all measures necessary to ensure that they are implemented.
+
+2. Administrative penalties shall include at minimum: (a) a public statement identifying the natural person, IORP, or other legal person responsible for the infringement; (b) an order requiring the person or IORP to cease the conduct and to desist from repetition; (c) an administrative fine of up to EUR 10,000,000 or, if higher, up to 10% of the total annual turnover of the IORP.
+
+3. The supervisory authority may, in the case of serious infringement, suspend or withdraw the authorisation of an IORP and require the orderly transfer of pension scheme obligations to another authorised IORP.
+
+4. Supervisory authorities shall cooperate with the European Insurance and Occupational Pensions Authority (EIOPA) and with supervisory authorities of other Member States in the investigation and enforcement of cross-border infringements.
+
+— — —
+
+CHAPTER VIII — TRANSITIONAL AND FINAL PROVISIONS
+
+Article 36 — Transitional Provisions
+
+1. IORPs authorised under the predecessor Directive shall be deemed authorised under this Directive, subject to compliance with the new requirements within the transitional periods set out in this Article.
+
+2. Existing IORPs shall comply with the governance requirements of Chapter I within twelve months of the entry into force of this Directive.
+
+3. Existing IORPs shall comply with the ORSA requirements of Article 23 within twenty-four months of entry into force.
+
+4. Existing IORPs shall comply with the ESG reporting requirements of Article 31 within thirty-six months of entry into force.
+
+Article 37 — Review Clause
+
+The European Commission shall review the application of this Directive five years after its entry into force and shall report to the European Parliament and the Council. The review shall assess, inter alia, the adequacy of the required coverage ratio, the effectiveness of ESG integration requirements, and the functioning of cross-border operations.
+
+Article 38 — Entry into Force
+
+This Directive shall enter into force on the twentieth day following that of its publication in the Official Journal of the European Union.
+
+Article 39 — Addressees
+
+This Directive is addressed to the Member States.
+
+— — —
+
+Done at Brussels.
+
+For the European Parliament        For the Council
+The President                      The President
