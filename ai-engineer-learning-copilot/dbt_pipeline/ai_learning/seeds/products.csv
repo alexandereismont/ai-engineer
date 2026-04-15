@@ -1,0 +1,21 @@
+product_id,name,category,price,rating,review_count,status
+1,Wireless Headphones,Electronics,79.99,4.3,1200,active
+2,Running Shoes,Apparel,54.99,4.1,875,active
+3,Yoga Mat,Fitness,29.99,4.5,2100,active
+4,Coffee Maker,Kitchen,119.00,4.2,650,active
+5,Notebook Pack,Stationery,12.99,4.0,3400,active
+6,Bluetooth Speaker,Electronics,49.99,4.4,1800,active
+7,Denim Jacket,Apparel,89.99,3.8,430,active
+8,Resistance Bands,Fitness,19.99,4.6,2900,active
+9,Blender,Kitchen,74.99,4.1,780,active
+10,Gel Pens Set,Stationery,8.99,4.3,5200,active
+11,Smart Watch,Electronics,199.99,4.0,920,active
+12,Hoodie,Apparel,59.99,4.5,1100,active
+13,Dumbbells 10kg,Fitness,44.99,4.7,670,active
+14,Air Fryer,Kitchen,149.99,4.6,1350,active
+15,Sticky Notes,Stationery,5.99,4.2,7800,active
+16,Earbuds,Electronics,39.99,3.9,2200,discontinued
+17,Sandals,Apparel,34.99,3.7,580,active
+18,Jump Rope,Fitness,-1.00,4.0,310,active
+19,Toaster,Kitchen,0.00,3.5,220,discontinued
+20,Highlighters,Stationery,7.49,4.1,4100,active
