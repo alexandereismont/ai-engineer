@@ -1,0 +1,267 @@
+version: 2
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Seeds
+# ─────────────────────────────────────────────────────────────────────────────
+seeds:
+  - name: employees
+    description: "Raw employee records loaded from the employees.csv seed file."
+    columns:
+      - name: employee_id
+        description: "Unique integer identifier for each employee."
+        data_tests:
+          - not_null
+          - unique
+      - name: name
+        description: "Full name of the employee."
+        data_tests:
+          - not_null
+      - name: department
+        description: "Business department the employee belongs to."
+        data_tests:
+          - not_null
+          - accepted_values:
+              values: ['Engineering', 'Marketing', 'Human Resources', 'Sales']
+      - name: salary
+        description: "Annual salary in USD. May be NULL for incomplete records."
+      - name: hire_date
+        description: "Date the employee joined the company (YYYY-MM-DD)."
+        data_tests:
+          - not_null
+      - name: performance_score
+        description: "Latest annual performance rating on a 1.0–5.0 scale."
+
+  - name: products
+    description: "Raw product catalogue loaded from the products.csv seed file."
+    columns:
+      - name: product_id
+        description: "Unique integer identifier for each product."
+        data_tests:
+          - not_null
+          - unique
+      - name: name
+        description: "Display name of the product."
+        data_tests:
+          - not_null
+      - name: category
+        description: "High-level product category."
+        data_tests:
+          - not_null
+          - accepted_values:
+              values: ['Electronics', 'Apparel', 'Fitness', 'Kitchen', 'Stationery']
+      - name: price
+        description: "Listed price in USD. May include erroneous values (<=0) that are filtered in silver."
+      - name: rating
+        description: "Average customer rating on a 1.0–5.0 scale."
+      - name: review_count
+        description: "Total number of customer reviews."
+      - name: status
+        description: "Whether the product is currently sold."
+        data_tests:
+          - not_null
+          - accepted_values:
+              values: ['active', 'discontinued']
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Bronze models
+# ─────────────────────────────────────────────────────────────────────────────
+models:
+  - name: stg_employees
+    description: >
+      Bronze staging model for employees. Casts all columns to declared types and
+      adds a loaded_at metadata timestamp. Preserves every source row — no rows
+      are filtered at this layer.
+    columns:
+      - name: employee_id
+        description: "Unique employee identifier (integer)."
+        data_tests:
+          - not_null
+          - unique
+      - name: name
+        description: "Full name of the employee."
+        data_tests:
+          - not_null
+      - name: department
+        description: "Department as-is from the source (not yet standardised)."
+        data_tests:
+          - not_null
+      - name: salary
+        description: "Annual salary in USD. NULL values are preserved here and filtered in silver."
+      - name: hire_date
+        description: "Date the employee joined (DATE type)."
+        data_tests:
+          - not_null
+      - name: performance_score
+        description: "Performance rating 1.0–5.0."
+      - name: loaded_at
+        description: "Timestamp when this row was processed by dbt."
+        data_tests:
+          - not_null
+
+  - name: stg_products
+    description: >
+      Bronze staging model for products. Casts all columns and adds loaded_at.
+      Dirty rows (price <= 0) are intentionally kept here and removed in silver.
+    columns:
+      - name: product_id
+        description: "Unique product identifier (integer)."
+        data_tests:
+          - not_null
+          - unique
+      - name: name
+        description: "Display name of the product."
+        data_tests:
+          - not_null
+      - name: category
+        description: "Product category."
+        data_tests:
+          - not_null
+      - name: price
+        description: "Listed price including potentially erroneous values."
+      - name: rating
+        description: "Average customer rating."
+      - name: review_count
+        description: "Total reviews."
+      - name: status
+        description: "active or discontinued."
+        data_tests:
+          - not_null
+          - accepted_values:
+              values: ['active', 'discontinued']
+      - name: loaded_at
+        description: "Timestamp when this row was processed by dbt."
+        data_tests:
+          - not_null
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Silver models
+# ─────────────────────────────────────────────────────────────────────────────
+  - name: employees_cleaned
+    description: >
+      Silver layer: employees with NULL salaries removed, department names
+      standardised to lowercase, and tenure_years added. Use this table for
+      individual-level HR analysis.
+    columns:
+      - name: employee_id
+        description: "Unique employee identifier."
+        data_tests:
+          - not_null
+          - unique
+      - name: name
+        description: "Full name."
+        data_tests:
+          - not_null
+      - name: department
+        description: "Department name in lowercase (e.g. engineering, marketing)."
+        data_tests:
+          - not_null
+          - accepted_values:
+              values: ['engineering', 'marketing', 'human resources', 'sales']
+      - name: salary
+        description: "Annual salary (NULL rows were removed)."
+        data_tests:
+          - not_null
+      - name: hire_date
+        description: "Date the employee joined."
+        data_tests:
+          - not_null
+      - name: performance_score
+        description: "Performance rating 1.0–5.0."
+      - name: tenure_years
+        description: "Full years of service as of today."
+        data_tests:
+          - not_null
+      - name: loaded_at
+        description: "Bronze load timestamp propagated through."
+
+  - name: products_cleaned
+    description: >
+      Silver layer: products with price <= 0 removed, rating rounded to 1 decimal,
+      and price_tier added. Use this table for product-level analysis.
+    columns:
+      - name: product_id
+        description: "Unique product identifier."
+        data_tests:
+          - not_null
+          - unique
+      - name: name
+        description: "Product display name."
+        data_tests:
+          - not_null
+      - name: category
+        description: "Product category."
+        data_tests:
+          - not_null
+      - name: price
+        description: "Valid listed price (> 0)."
+        data_tests:
+          - not_null
+      - name: rating
+        description: "Rating rounded to 1 decimal place."
+      - name: review_count
+        description: "Total customer reviews."
+      - name: status
+        description: "active or discontinued."
+        data_tests:
+          - not_null
+          - accepted_values:
+              values: ['active', 'discontinued']
+      - name: price_tier
+        description: "budget (<$25), mid ($25–$100), or premium (>$100)."
+        data_tests:
+          - not_null
+          - accepted_values:
+              values: ['budget', 'mid', 'premium']
+      - name: loaded_at
+        description: "Bronze load timestamp propagated through."
+
+# ─────────────────────────────────────────────────────────────────────────────
+# Gold models
+# ─────────────────────────────────────────────────────────────────────────────
+  - name: dept_summary
+    description: >
+      Gold layer: one row per department with headcount, average salary,
+      average performance score, and average tenure. This is the table an
+      AI agent queries to answer HR questions without touching individual PII.
+    columns:
+      - name: department
+        description: "Department name (lowercase, from silver layer)."
+        data_tests:
+          - not_null
+          - unique
+      - name: headcount
+        description: "Number of employees in the department."
+        data_tests:
+          - not_null
+      - name: avg_salary
+        description: "Mean annual salary rounded to 2 decimal places."
+        data_tests:
+          - not_null
+      - name: avg_performance
+        description: "Mean performance score (1.0–5.0) rounded to 2 decimal places."
+      - name: avg_tenure_years
+        description: "Mean years of service rounded to 1 decimal place."
+
+  - name: product_category_summary
+    description: >
+      Gold layer: one row per product category with product count, average price,
+      average rating, and total reviews. An AI agent queries this for category-level
+      product questions.
+    columns:
+      - name: category
+        description: "Product category name."
+        data_tests:
+          - not_null
+          - unique
+      - name: product_count
+        description: "Number of valid products in this category."
+        data_tests:
+          - not_null
+      - name: avg_price
+        description: "Mean price in USD rounded to 2 decimal places."
+        data_tests:
+          - not_null
+      - name: avg_rating
+        description: "Mean customer rating rounded to 2 decimal places."
+      - name: total_reviews
+        description: "Total review count across all products in the category."

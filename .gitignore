@@ -29,6 +29,9 @@ phase-*/chroma_db/
 *.bin
 *.safetensors
 models/
+# Allow dbt models directory (gitignore pattern above catches HF cache dirs)
+!ai-engineer-learning-copilot/dbt_pipeline/ai_learning/models/
+!ai-engineer-learning-copilot/dbt_pipeline/ai_learning/models/**
 
 # Secrets
 .env
